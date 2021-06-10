@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/command-set-extension-manifest.schema.json",
+  "id": "06521198-c460-46e7-ad2f-bc603a5d97ac",
+  "alias": "VersionHistoryCommandSet",
+  "componentType": "Extension",
+  "extensionType": "ListViewCommandSet",
+  "version": "*",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "items": {
+    "COMMAND_ViewHistory": {
+      "title": {
+        "default": "Version History - ResMed Demo"
+      },
+      "iconImageUrl": "icons/request.png",
+      "type": "command"
+    }
+  }
+}

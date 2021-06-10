@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "version-history-command-set": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/versionHistory/VersionHistoryCommandSet.js",
+          "manifest": "./src/extensions/versionHistory/VersionHistoryCommandSet.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "VersionHistoryCommandSetStrings": "lib/extensions/versionHistory/loc/{locale}.js"
+  }
+}

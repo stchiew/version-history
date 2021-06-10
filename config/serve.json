@@ -1,0 +1,25 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://resmedglobal.sharepoint.com/sites/ITCollaboration/Master%20Repository/Forms/AllItems.aspx",
+      "customActions": {
+        "06521198-c460-46e7-ad2f-bc603a5d97ac": {
+          "location": "ClientSideExtension.ListViewCommandSet.CommandBar",
+          "properties": {}
+        }
+      }
+    },
+    "versionHistory": {
+      "pageUrl": "https://resmedglobal.sharepoint.com/sites/ITCollaboration/Master%20Repository/Forms/AllItems.aspx",
+      "customActions": {
+        "06521198-c460-46e7-ad2f-bc603a5d97ac": {
+          "location": "ClientSideExtension.ListViewCommandSet.CommandBar",
+          "properties": {}
+        }
+      }
+    }
+  }
+}
